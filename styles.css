@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&family=Red+Hat+Display:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0E8FF;
+    background-image: url(/Images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.main_div {
+    width: 327px;
+    height: 567px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    font-size: 22px;
+    color: #1F2E55;
+}
+
+.main_p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Red Hat Display";
+    font-size: 15px;
+    font-weight: 500;
+    width: 263px;
+    height: 75px;
+    text-align: center;
+    color: #717FA6;
+    margin-left: 32px;
+}
+
+.second_div {
+    background-color: #F7F9FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 279px;
+    height: 81px;
+    border-radius: 11px;
+    margin-left: 24px;
+}
+
+.left_side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.music_icon {
+    width: 48px;
+    height: 48px;
+    margin-left: 16px;
+    margin-right: 20px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.Annual-Plan {
+    display: flex;
+    font-family: "Red Hat Display";
+    color: #1F2E55;
+    font-weight: 900;
+    font-size: 14px;
+    margin-top: 21px;
+    margin-bottom: 0;
+    height: 19px;
+}
+
+.Cost {
+    display: flex;
+    font-family: "Red Hat Display";
+    color: #717FA6;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 3px;
+    height: 19px;
+}
+
+.right_side {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.Change {
+    color: #382AE1;
+    font-family: "Red Hat Display";
+    font-weight: 700;
+    font-size: 13px;
+    text-decoration-line: underline;
+}
+
+.Payment {
+    background-color: #382AE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 24px 24px 24px;
+    border-radius: 11px;
+}
+
+.Proceed {
+    display: flex;
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    font-size: 15px;
+    color: white;
+
+}
+
+.Cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #717FA6;
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    font-size: 15px;
+}
